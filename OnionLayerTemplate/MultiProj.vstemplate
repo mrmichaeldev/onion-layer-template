@@ -1,0 +1,27 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Layer Template</Name>
+    <Description>.NET Standard Projects with Interfaces, Injection and Tests</Description>
+    <Icon>Icon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <SolutionFolder Name="$projectname$">
+        <ProjectTemplateLink CopyParameters="true">
+          Layer.Implementations\Implementations.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink CopyParameters="true">
+          Layer.Tests\Tests.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink CopyParameters="true">
+          Layer.Interfaces\Interfaces.vstemplate
+        </ProjectTemplateLink>
+		<ProjectTemplateLink CopyParameters="true">
+          Layer.Models\Models.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

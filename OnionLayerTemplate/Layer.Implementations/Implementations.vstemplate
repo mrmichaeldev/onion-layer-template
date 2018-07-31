@@ -1,0 +1,24 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Layer</Name>
+    <Description>
+    </Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+	  <CreateInPlace>true</CreateInPlace>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>Layer</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_projectname$.Implementations.csproj" File="$ext_projectname$.Implementations.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$ext_projectname$.cs">$ext_projectname$.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$ext_projectname$Module.cs">$ext_projectname$Module.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

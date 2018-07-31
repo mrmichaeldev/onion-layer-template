@@ -1,0 +1,21 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Layer.Interfaces</Name>
+    <Description>
+    </Description>
+    <ProjectType>CSharp</ProjectType>
+    <CreateInPlace>true</CreateInPlace>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>Layer.Interfaces</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_projectname$.Interfaces.csproj" File="$ext_projectname$.Interfaces.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="I$ext_projectname$.cs">I$ext_projectname$.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
