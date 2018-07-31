@@ -6,7 +6,7 @@ using Autofac;
 namespace $ext_projectname$.Implementations
 {
     using Interfaces;
-    using Interfaces.Models;
+    using Models;
 
     public class $ext_projectname$Module : Module
     {

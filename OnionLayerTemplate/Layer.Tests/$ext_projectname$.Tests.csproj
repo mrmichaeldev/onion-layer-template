@@ -59,17 +59,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$ext_projectname$\$ext_projectname$.Interfaces.csproj">
-      <Project>{84a0ac97-4e98-4486-91b0-67a475e132a6}</Project>
-      <Name>$ext_projectname$.Interfaces</Name>
+    <ProjectReference Include="..\Layer.Implementations\%24ext_projectname%24.Implementations.csproj">
+      <Project>{d764eb5b-1349-4690-862f-f00f572e9f8e}</Project>
+      <Name>%24ext_projectname%24.Implementations</Name>
     </ProjectReference>
-    <ProjectReference Include="..\$ext_projectname$\$ext_projectname$.Models.csproj">
-      <Project>{1d68894f-6e53-42df-96bd-c210b7c46ff9}</Project>
-      <Name>$ext_projectname$.Models</Name>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{1ee98809-c8fb-4879-8d22-5c05f8ccf459}</Project>
+      <Name>Interfaces</Name>
     </ProjectReference>
-	<ProjectReference Include="..\$ext_projectname$\$ext_projectname$.Implementations.csproj">
-      <Project>{1d68894f-6e53-42df-96bd-c210b7c46ff9}</Project>
-      <Name>$ext_projectname$.Implementations</Name>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{a48a26ab-64fc-4cf4-97f5-93548ad6cbc9}</Project>
+      <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

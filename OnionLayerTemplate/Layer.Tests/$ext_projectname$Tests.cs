@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace $ext_projectname$.Tests
 {
     using Interfaces;
-    using Interfaces.Models;
+    using Models;
 
     [TestClass]
     public class $ext_projectname$Tests

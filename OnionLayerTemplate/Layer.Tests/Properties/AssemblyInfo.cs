@@ -1,6 +1,6 @@
 using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
+using System.Runtime.Compiler$ext_projectname$s;
+using System.Runtime.Interop$ext_projectname$s;
 
 [assembly: AssemblyTitle("$ext_projectname$.Tests")]
 [assembly: AssemblyDescription("")]
